@@ -1,5 +1,5 @@
 const express = require("express");
-const routes = require("./routes/groupDataRoute");
+const routes = require("../routes/groupDataRoute");
 
 const app = express();
 const port = 3000;
