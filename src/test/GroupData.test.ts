@@ -1,4 +1,4 @@
-import { GroupDataByDepartment } from "../api/groupData";
+import { GroupDataByDepartment } from "../services/groupData";
 import { dataForTest, expectDataForTest } from "../data/dataForTest";
 
 describe("GroupDataByDepartment", () => {

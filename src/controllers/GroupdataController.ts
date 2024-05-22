@@ -1,4 +1,4 @@
-import { getTransformedData } from "../api/api";
+import { getTransformedData } from "../services/api";
 import { Request, Response } from "express";
 
 module.exports.getGroupDepartment = async (req: Request, res: Response) => {
